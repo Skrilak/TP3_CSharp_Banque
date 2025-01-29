@@ -1,5 +1,5 @@
 # TP3_CSharp_Banque
-Description
+Description:
 
 BANQUEBACK est une application de gestion bancaire développée en C# avec Windows Forms. Elle permet la gestion des clients, des comptes bancaires (courant et épargne) et des conseillers. L'application utilise une interface graphique pour faciliter l'interaction avec l'utilisateur.
 
@@ -15,7 +15,7 @@ Prérequis :
 Visual Studio (version compatible avec les projets .NET Framework)
 .NET Framework installé
 
-Installation
+Installation:
 
 Cloner ou extraire le projet.
 Ouvrir le fichier BANQUEBACK.sln avec Visual Studio.
