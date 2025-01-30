@@ -1,0 +1,13 @@
+C:\Users\Arthu\source\repos\TP_Ma_Banque\bin\Debug\TP_Ma_Banque.exe.config
+C:\Users\Arthu\source\repos\TP_Ma_Banque\bin\Debug\TP_Ma_Banque.exe
+C:\Users\Arthu\source\repos\TP_Ma_Banque\bin\Debug\TP_Ma_Banque.pdb
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.csproj.AssemblyReference.cache
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.Form1.resources
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.Properties.Resources.resources
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.csproj.GenerateResource.cache
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.exe
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.pdb
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.Form2.resources
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.Form3.resources
+C:\Users\Arthu\source\repos\TP_Ma_Banque\obj\Debug\TP_Ma_Banque.Form4.resources
