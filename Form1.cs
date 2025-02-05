@@ -32,17 +32,16 @@ namespace TP_Ma_Banque
                 textUserName.Focus();
             }
             /*
-            // Votre chaîne de connexion
-            string connectionString = "Server=MON_SERVEUR;Database=MA_BDD;User Id=MON_USER;Password=MON_PASSWORD;";
+            //Code si la bdd etait relié au backend
 
             string username = textUserName.Text;
             string password = textUserPassword.Text;
 
-            // Instanciation du service
-            AuthService authService = new AuthService(connectionString);
+            // Instanciation de la bdd
+            DBInterface dbInterface = new DBInterface();
 
             // Validation
-            bool isValid = authService.ValidateUser(username, password);
+            bool isValid = dbInterface.CheckLogin(username, password);
 
             if (isValid)
             {

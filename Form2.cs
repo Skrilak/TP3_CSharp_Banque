@@ -119,18 +119,17 @@ namespace TP_Ma_Banque
             dataGridView1.DataSource = table;
 
             /*
-            // Chaîne de connexion adaptée à votre serveur, BDD et identifiants
-            string connectionString = "Server=MON_SERVEUR;Database=MA_BDD;User Id=MON_USER;Password=MON_PASSWORD;";
-
-            // Instanciation du DatabaseHelper
-            DatabaseHelper dbHelper = new DatabaseHelper(connectionString);
+            //Code si la bdd etait relié au backend
+       
+            // Instanciation de la bdd
+            DBInterface dbInterface = new DBInterface();
 
             // Récupération des comptes
-            DataTable accounts = dbHelper.GetAccounts();
+            DataTable accounts = DBInterface.GetAccounts();
 
             // Entête de présentation
-            Console.WriteLine("ID | Titulaire (Nom, Prénom) | Type de compte | Solde   | Taux");
-            Console.WriteLine("---------------------------------------------------------------");
+            //Console.WriteLine("ID | Titulaire (Nom, Prénom) | Type de compte | Solde   | Taux");
+            //Console.WriteLine("---------------------------------------------------------------");
 
             // Parcours et affichage des données
             foreach (DataRow row in accounts.Rows)
