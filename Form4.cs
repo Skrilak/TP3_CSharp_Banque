@@ -79,16 +79,17 @@ namespace TP_Ma_Banque
             dataGridView1.DataSource = table;
 
             /*
-            // Créez l’instance de votre helper avec votre chaîne de connexion
-            string connectionString = "Server=MON_SERVEUR;Database=MA_BDD;User Id=MON_USER;Password=MON_PASSWORD;";
-            DatabaseHelper dbHelper = new DatabaseHelper(connectionString);
+            //Code si la bdd etait relié au backend
+       
+            // Instanciation de la bdd
+            DBInterface dbInterface = new DBInterface();
 
             // Récupération du DataTable
-            DataTable transactions = dbHelper.GetTransactions();
+            DataTable transactions = DBInterface.GetTransactions();
 
             // Affichage des données
-            Console.WriteLine("ID | Émetteur (Nom, Prénom) | Bénéficiaire (Nom, Prénom) | Montant");
-            Console.WriteLine("---------------------------------------------------------------------");
+            //Console.WriteLine("ID | Émetteur (Nom, Prénom) | Bénéficiaire (Nom, Prénom) | Montant");
+            //Console.WriteLine("---------------------------------------------------------------------");
 
             foreach (DataRow row in transactions.Rows)
             {
